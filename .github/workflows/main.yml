@@ -6,7 +6,7 @@ on:
     - cron: '0 23 * * *'
 jobs:
 #将工作流程中运行的所有作业组合在一起
-  build:
+build:
   #定义名为build的作业。子键将定义作业的属性
     runs-on: ubuntu-latest
     steps:
